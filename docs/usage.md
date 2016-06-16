@@ -11,6 +11,7 @@ Route::group(['prefix' => 'blog', 'as' => 'blog.'], function() {
 ```
 ## Controllers
 * Os controllers são salvos dentro da pasta `app/Http/Controllers/Admin/` para gerar novos controllers basta utilizar o comando make:controller onde tem o parametro `--resource` que já trás os métodos para o CRUD. 
+
 > php artisan make:controller ExemploController --resource
 
 ## Models
